@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "simpleshop",
+  "version": "1.0.0",
+  "name": "SimpleShop",
+  "description": "/shop infinita, /sell, /bal e /pay (inspirado no estilo DonutSMP).",
+  "authors": ["Tu"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "main": ["com.shopmod.ShopMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
